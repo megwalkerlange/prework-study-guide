@@ -13,20 +13,19 @@
   <header id="top">
     <h1>Prework Study Guide</h1>
     <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
   </header>
   <main>
     <section class="card" id="html-section">
       <h2>HTML</h2>
 
       <ul>
-        <p><b>HTML</b>(Hypertext Markup Language) is a key programming language in web development. It is used to build
-          the structure of a webpage and provide a framework in which to organise the content
-          for the user. The framework is made up by different <b>elements</b>, which all perform a different funtion in
+        <li>HTML(Hypertext Markup Language) is a key programming language in web development. It is used to build
+          the structure of a webpage and provide a framework in which to organise the content for the user</li>
+          <li>The framework is made up by different <b>elements</b>, which all perform a different funtion in
           structuring the webpage and making the information easier
-          to navigate.
-          The two elements which are the most important are the 'head' and 'body' elements.
-        </p>
-
+          to navigate.</li>
+         <li>The two elements which are the most important are the 'head' and 'body' elements.</li>
         <li>The <b>head</b> element contains informtaion about the webpage. It is not visible to the user - instead it provides
           the browser with the required code and information to make the webpage run. This information is called
           <b>metadata</b>.</li>
@@ -38,19 +37,40 @@
     <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
-        <li>Enter your CSS notes here</li>
+        <li>CSS (Cascading Style Sheets) is a coding language that allows developers to add style to a webpage</li>
+        <li>CSS code can be added and embedded into HTML to make visual changes(inline and internal CSS style sheet). However, it is prefereble to create a seperate
+          CSS sheet for the code (external CSS style sheet) and then create a link into the HTML document as it is easier to make changes later on in the project.
+        </li>
+        <li>Example CSS Rule: <b>div {color:blue; text-align: justify;}</b> </li>
+           <li>div = selector = defines the elements and attributes to which the rules and applications apply</li>
+           <li>{colour: blue; = declarations = has two components which are the CSS property we want to the apply and the 
+            value of that property. <b>colour</B> is the property and <b>blue</b> is the value.
+           </li>
+
       </ul>
     </section>
     <section class="card" id="git-section">
       <h2>Git</H2>
       <ul>
-        <li>Enter your Git notes here</li>
+        <li>GitHub is an online cloud platform for storing code and development projects. It allows you to showcase your work to others and 
+          for developers to work on their projects together at the same time.
+          <li>Work is organised into <b>repositories'</b>b, which store code for projects</li>
+          <li>The most up to date code is stored in the main <b>branch</b> and if developers wish to upload and make changes they must
+          create a new branch. They will work on their code until it is ready to upload, at which poin thtey will upload the altered code and <b>merge</b>
+          the two branches together using a <b>pull request</b> </li>
+        </li>
+        <li>Here is Git commands to upload code to GitHub repo:</li>
+        <li>git add -A</li>
+        <li>git commit -m "description of action"</li>
+        <li>git pull origin main</li>
+        <li>git push origin feature/(repo name here)</li>
       </ul>
     </section>
     <section class="card" id="javascript-section">
       <h2>JavaScript</h2>
       <ul>
-        <li>Enter your JavaScript notes here</li>
+        <li>A variable is a named container that allows us to store data in our code</li>
+    <li> Control flow is the order in which a computer executes code in a script. In JavaScript the computer always reads the code from top to bottom</li>
       </ul>
 
     </section>
@@ -59,6 +79,7 @@
   <footer>
     <p>I can code!</p>
   </footer>
+  <script src="./assets/script.js"></script>
 </body>
 
 </html>
